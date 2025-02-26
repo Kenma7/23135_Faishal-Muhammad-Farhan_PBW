@@ -1,0 +1,188 @@
+* {
+    margin : 0;
+    padding : 0;
+    text-decoration: none;
+    list-style-type: none;
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color:  #343345;
+}
+
+.nav {
+    background-color: white;
+    position: fixed;
+    width: 100%;
+    height : 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: fantasy;
+}
+
+.logo-web {
+    display: flex;
+    align-items: center;
+    font-family: fantasy;
+
+}
+
+.logo-joker {
+    width: 20px;
+    height: 20px;
+    padding: 10px;
+}
+
+.ul-nav {
+    justify-content: right;
+    display : flex;
+    height : 50px;
+    align-items: center;
+}
+
+.li-nav {
+    margin-right: 10px;
+    padding : 20px;
+}
+
+.li-nav:hover {
+    background-color: #7a6cff;
+    height: 23px;
+
+}
+
+section {
+    height: 100vh;
+}
+
+.home-container {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.welcome-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.joker-card {
+    width: 100px;
+    padding: 20px;
+}
+
+.container {
+    color: white;
+    width : 80%;
+    height : 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.biodata-content {
+    margin-left: 100px;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-profile {
+    margin-left: 30px;
+    font-size: 20px;
+    line-height: 1.5;
+    font-family: sans-serif;
+}
+
+.hobbies-content {
+    font-size: 15px;
+
+}
+
+.img-profile {
+    height: 350px;
+    width: 250px;
+    padding: 30px;
+    border-radius: 50%;
+}
+
+.icons-content {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.icon-sosmed {
+    background-color: #7a6cff;
+    width: 20px;
+    height: 20px;
+    font-size: 100px;
+    border-radius: 50%;
+    margin: 10px 10px 10px 0;
+    padding: 10px;
+}
+
+.profile-content {
+    color: white;
+    height: 100vh;
+    font-family: sans-serif;
+}
+
+.font-profile {
+    font-size: 50px;
+    margin-top: 100px;
+}
+
+.profile-text {
+    font-size: 30px;
+    padding: 30px;
+    line-height: 4;
+}
+
+.joker-img {
+    width: 100px;
+    display: flex;
+    justify-self: right;
+}
+
+.h1-main {
+    color: #7a6cff;   
+    font-size: 100px;
+    display : flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bttn {
+    background-color: transparent;
+    font-size: 20px;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 50px;
+    margin-top: 20px;
+    border: 2px solid #7a6cff;
+}
+
+.bttn:hover {
+    background-color: #7a6cff;
+}
+
+span {
+    color: #7a6cff;
+}
+
+.clown-logo {
+    width: 25px;
+    padding: 10px;
+}
+
+.footer {
+    background-color: white;
+    height: 50px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
